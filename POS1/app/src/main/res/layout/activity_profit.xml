@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profit"
+    android:weightSum="8"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="top"
+    android:layout_gravity="left">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="PROFIT"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:gravity="top"
+        android:layout_gravity="left"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:text="Daily"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:id="@+id/tv_daily"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:gravity="top"
+        android:layout_gravity="left"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:text="Monthly"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:id="@+id/tv_monthly"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:gravity="top"
+        android:layout_gravity="left"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:text="Annually"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:id="@+id/tv_annually"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

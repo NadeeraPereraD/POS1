@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pos1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.POS1">
+        <activity
+            android:name=".DisplayItems"
+            android:exported="false" />
+        <activity
+            android:name=".Profit"
+            android:exported="false" />
+        <activity
+            android:name=".RemoveItems"
+            android:exported="false" />
+        <activity
+            android:name=".EditItems"
+            android:exported="false" />
+        <activity
+            android:name=".AddItems"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FBra"
+            android:exported="false" />
+        <activity
+            android:name=".FUnderPants"
+            android:exported="false" />
+        <activity
+            android:name=".FVest"
+            android:exported="false" />
+        <activity
+            android:name=".FHoodies"
+            android:exported="false" />
+        <activity
+            android:name=".FTankTops"
+            android:exported="false" />
+        <activity
+            android:name=".FBlouseBlouse"
+            android:exported="false" />
+        <activity
+            android:name=".FTShirts"
+            android:exported="false" />
+        <activity
+            android:name=".FShortSkirts"
+            android:exported="false" />
+        <activity
+            android:name=".FLongSkirts"
+            android:exported="false" />
+        <activity
+            android:name=".FBottoms"
+            android:exported="false" />
+        <activity
+            android:name=".FThreeQuater"
+            android:exported="false" />
+        <activity
+            android:name=".FDenim"
+            android:exported="false" />
+        <activity
+            android:name=".FFormalTrouser"
+            android:exported="false" />
+        <activity
+            android:name=".MSocks"
+            android:exported="false" />
+        <activity
+            android:name=".MUnderPants"
+            android:exported="false" />
+        <activity
+            android:name=".MVests"
+            android:exported="false" />
+        <activity
+            android:name=".MHoodies"
+            android:exported="false" />
+        <activity
+            android:name=".MTankTops"
+            android:exported="false" />
+        <activity
+            android:name=".MTShirts"
+            android:exported="false" />
+        <activity
+            android:name=".MShortSleeves"
+            android:exported="false" />
+        <activity
+            android:name=".MLongSleeves"
+            android:exported="false" />
+        <activity
+            android:name=".MShorts"
+            android:exported="false" />
+        <activity
+            android:name=".MBottoms"
+            android:exported="false" />
+        <activity
+            android:name=".MDenim"
+            android:exported="false" />
+        <activity
+            android:name=".MFormalTrouser"
+            android:exported="false" />
+        <activity
+            android:name=".Funderwear"
+            android:exported="false" />
+        <activity
+            android:name=".Fblouse"
+            android:exported="false" />
+        <activity
+            android:name=".Fskirts"
+            android:exported="false" />
+        <activity
+            android:name=".Ftrousers"
+            android:exported="false" />
+        <activity
+            android:name=".Munderwears"
+            android:exported="false" />
+        <activity
+            android:name=".Mshirts"
+            android:exported="false" />
+        <activity
+            android:name=".MTrouser"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>

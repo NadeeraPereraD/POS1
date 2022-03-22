@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Munderwears"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    android:gravity="top"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Men's Underwear"
+            android:gravity="top"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_weight="0.25"
+            android:padding="10dp">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.25"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:weightSum="3">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn_mvests"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/m_vest">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn_munderpants"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/m_underware_round">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn_msocks"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/m_socks_round">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.25"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:weightSum="3">
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

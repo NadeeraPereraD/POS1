@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FBra"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    android:gravity="top"
+    android:layout_gravity="left">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bra"
+            android:gravity="top"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_weight="1.75"
+            android:padding="10dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sizes"
+            android:gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_weight="0.25"
+            android:padding="10dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:weightSum="4">
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:textColor="#00f"
+            android:id="@+id/cbx_twentyfour"
+            android:checked="false"
+            android:textSize="20sp"
+            android:layout_weight="1">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:textColor="#00f"
+            android:id="@+id/cbx_twentysix"
+            android:checked="false"
+            android:textSize="20sp"
+            android:layout_weight="1">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:textColor="#00f"
+            android:id="@+id/cbx_twentyeight"
+            android:checked="false"
+            android:textSize="20sp"
+            android:layout_weight="1">
+
+        </CheckBox>
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="XL"
+            android:textColor="#00f"
+            android:id="@+id/cbx_thirty"
+            android:checked="false"
+            android:textSize="20sp"
+            android:layout_weight="1">
+
+        </CheckBox>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:weightSum="4">
+
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="XXL"
+            android:textColor="#00f"
+            android:id="@+id/cbx_thirtytwo"
+            android:checked="false"
+            android:textSize="20sp"
+            android:layout_weight="1">
+
+        </CheckBox>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:weightSum="4">
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Quantity"
+        android:gravity="center_horizontal"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:padding="10dp">
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:weightSum="4">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/btn_plus"
+            android:layout_margin="10dp">
+
+        </Button>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:id="@+id/et_qty"
+            android:layout_margin="10dp">
+
+        </EditText>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/btn_minus"
+            android:layout_margin="10dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Finish"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:backgroundTint="#FF0000">
+
+        </Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Add to Cart"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/btn_addtocart"
+            android:layout_margin="10dp"
+            android:backgroundTint="#378900">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

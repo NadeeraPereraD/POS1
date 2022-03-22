@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/POS1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/drawable/fBlouse_background.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/drawable/fSkirt_background.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/drawable/fTrouser_background.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/drawable/fUnderWear_background.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/drawable/mShirt_background.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/drawable/mTrouser_background.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/drawable/mUnderWear_background.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_add_items.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_admin_page.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_display_items.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_edit_items.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_fblouse.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_fblouse_blouse.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_fbottoms.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_fbra.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_fdenim.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_fformal_trouser.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_fhoodies.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_flong_skirts.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_fshort_skirts.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_fskirts.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_ftank_tops.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_fthree_quater.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_ftrousers.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_ftshirts.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_funder_pants.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_funderwear.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_fvest.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_login2.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mbottoms.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mdenim.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mformal_trouser.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mhoodies.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mlong_sleeves.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mshirts.xml" value="0.1328125" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mshort_sleeves.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mshorts.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_msocks.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mtank_tops.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mtrouser.xml" value="0.1328125" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mtshirts.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_munder_pants.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_munderwears.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_mvests.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_profit.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/activity_remove_items.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/cardview.xml" value="0.1328125" />
+        <entry key="..\:/Android/POS1/app/src/main/res/layout/recycler_view_item.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android/POS1/app/src/main/res/mipmap-anydpi-v26/fBlouse.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/mipmap-anydpi-v26/f_blouse.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/mipmap-anydpi-v26/f_blouse_foreground.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/mipmap-anydpi-v26/f_blouse_round - Copy.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/mipmap-anydpi-v26/f_hoodies.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/mipmap-anydpi-v26/f_skirt.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/mipmap-anydpi-v26/f_trouser.xml" value="0.14895833333333333" />
+        <entry key="..\:/Android/POS1/app/src/main/res/mipmap/f_blouse.xml" value="0.14895833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

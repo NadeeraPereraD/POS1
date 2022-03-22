@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ftrousers"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    android:gravity="top"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Women's Trousers"
+            android:gravity="top"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_weight="0.25"
+            android:padding="10dp">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.25"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:weightSum="3">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn_fformaltrousers"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/f_formaltrouser_round">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn_fjeans"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/f_jeans_round">
+
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn_fthreequarter"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/f_threequaters_round">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.25"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:layout_gravity="center"
+        android:weightSum="3">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn_fbottoms"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/f_bottoms_round">
+
+        </ImageButton>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

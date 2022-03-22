@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="3"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Men"
+            android:gravity="top"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_weight="0.25"
+            android:padding="10dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:weightSum="3">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_trouser"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@mipmap/m_trouser_round" >
+
+            </ImageButton>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_shirt"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@mipmap/m_shirt_round">
+
+            </ImageButton>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_underwear"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@mipmap/m_underware">
+
+            </ImageButton>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Women"
+            android:gravity="top"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_weight="0.25"
+            android:padding="10dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.875"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:weightSum="2">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_f_trouser"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@mipmap/f_trouser_round">
+
+            </ImageButton>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_skirt"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@mipmap/f_skirt_round">
+
+            </ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.875"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:weightSum="2">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_blouse"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@mipmap/f_blouse_round">
+
+            </ImageButton>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btn_f_underwear"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@mipmap/f_underware_round">
+
+            </ImageButton>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
